@@ -1,0 +1,60 @@
+{
+    "details": {
+        "user": [
+            {
+                "name": "Sarumathi",
+                "phone": "9677202803",
+                "device": "Sensors",
+                "paymentmode": "online mode",
+		        "totalcost": "500"
+                "_u_id": "01"
+
+            },
+            {
+               
+                "name": "Balasaravanan",
+                "phone": "9677257896",
+                "device": "Breadboard",
+                "paymentmode": "Cash on delivery",
+				"totalcost": "300"
+                "_u_id": "02"
+            },
+            {
+               
+                "name": "Yugan",
+                "phone": "9879562403",
+                "device": "Adafruit",
+                "paymentmode": "online mode",
+				"totalcost": "1499"
+                "_u_id": "03"
+            },
+            {
+               
+                "name": "Aditya",
+                "phone": "6358969852",
+                "device": "Ardino",
+                "paymentmode": "Cash on delivery",
+				"totalcost": "198"
+                "_u_id": "04"
+            },
+            {
+               
+                "name": "Sabitha",
+                "phone": "728596783",
+                "device": "Battery & connector",
+                "paymentmode": "online mode",
+				"totalcost": "499"
+                "_u_id": "05"
+            },
+            {
+               
+                "name": "Rajaraman",
+                "phone": "9252658243",
+                "device": "connectot cable",
+                "paymentmode": "online mode",
+				"totalcost": "699"
+                "_u_id": "06"
+            }
+        ]
+    }
+}

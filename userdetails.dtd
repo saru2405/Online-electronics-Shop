@@ -1,0 +1,30 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT details (user)+>
+<!ATTLIST details
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT user (name,phone,device,paymentmode,totalcost)>
+<!ATTLIST user
+  xmlns CDATA #FIXED ''
+  uid CDATA #REQUIRED>
+
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT phone (#PCDATA)>
+<!ATTLIST phone
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT device (#PCDATA)>
+<!ATTLIST device
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT paymentmode (#PCDATA)>
+<!ATTLIST paymentmode
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT totalcost (#PCDATA)>
+<!ATTLIST totalcost
+  xmlns CDATA #FIXED ''>

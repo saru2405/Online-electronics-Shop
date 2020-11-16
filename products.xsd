@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="products">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="device"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="device">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="offers"/>
+        <xs:element ref="availablity"/>
+        <xs:element ref="delivery_speed"/>
+      </xs:sequence>
+      <xs:attribute name="device" use="required" type="xs:string"/>
+      <xs:attribute name="D_id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="offers" type="xs:string"/>
+  <xs:element name="availablity" type="xs:string"/>
+  <xs:element name="delivery_speed" type="xs:string"/>
+</xs:schema>

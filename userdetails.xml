@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type = "text/xsl" href = "userdetails.xsl"?>
+<details>
+  <user u_id="01">
+    <name>Sarumathi</name>
+    <phone> 9677202803</phone>
+    <device>Sensors</device>
+    <paymentmode>online mode </paymentmode>
+    <totalcost>500</totalcost>
+  </user>
+   <user u_id="02">
+    <name>Balasaravanan</name>
+    <phone> 9677257896</phone>
+    <device>Breadboard</device>
+    <paymentmode>Cash on delivery</paymentmode>
+    <totalcost>300</totalcost>
+  </user>
+   <user u_id="03">
+    <name>Yugan</name>
+    <phone> 9879562403</phone>
+    <device>Adafruit</device>
+    <paymentmode>online mode </paymentmode>
+    <totalcost>1499</totalcost>
+  </user> 
+ <user u_id="04">
+    <name>Aditya</name>
+    <phone> 6358969852</phone>
+    <device>Ardino</device>
+    <paymentmode>Cash on delivery </paymentmode>
+    <totalcost>198</totalcost>
+  </user> 
+ <user u_id="05">
+    <name>Sabitha</name>
+    <phone> 728596783</phone>
+    <device>Battery and connector</device>
+    <paymentmode>online mode </paymentmode>
+    <totalcost>499</totalcost>
+  </user>
+  <user u_id="06">
+    <name>Rajaraman</name>
+    <phone> 9252658243</phone>
+    <device>connectot cable</device>
+    <paymentmode>online mode </paymentmode>
+    <totalcost>699</totalcost>
+  </user>
+</details>

@@ -1,0 +1,49 @@
+{
+    "conditions": {
+        "device": [
+            {
+                "offers":"15%",
+                "availablity":"7 no",
+                "delivery_speed": "3-4 days",
+                "_device": "breadboard",
+                "_d_id": "02"
+            },
+            {
+                "offers":"14%",
+                "availablity":"25 no",
+                "delivery_speed": "4-5 days",
+                "_device": "arduino",
+                "_d_id": "09"
+            },
+            {
+                "offers":"50%",
+                "availablity":"50 no",
+                "delivery_speed": "1-2 days",
+                "_device": "connectors",
+                "_d_id": "10"
+            },
+            {
+                "offers":"15%",
+                "availablity":"80 no",
+                "delivery_speed": "3-4 days",
+                "_device": "battery",
+                "_d_id": "04"
+            },
+            {
+                "offers":"20%",
+                "availablity":"59 no",
+                "delivery_speed": "1-3 days",
+                "_device": "adafruit",
+                "_d_id": "19"
+            },
+            {
+               "offers":"30%",
+                "availablity":"45 no",
+                "delivery_speed": "2-3 days",
+                "_device": "amphenol",
+                "_d_id": "53"
+            
+            }
+        ]
+    }
+}

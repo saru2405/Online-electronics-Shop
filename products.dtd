@@ -1,0 +1,23 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT products (device)+>
+<!ATTLIST products
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT device (offers,availablity,delivery_speed)>
+<!ATTLIST device
+  xmlns CDATA #FIXED ''
+  d_id NMTOKEN #REQUIRED
+  device CDATA #REQUIRED>
+
+<!ELEMENT offers (#PCDATA)>
+<!ATTLIST offers
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT availablity (#PCDATA)>
+<!ATTLIST availablity
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT delivery_speed (#PCDATA)>
+<!ATTLIST delivery_speed
+  xmlns CDATA #FIXED ''>

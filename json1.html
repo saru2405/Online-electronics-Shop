@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+	body{
+		background-color: lightblue;
+	}
+</style>
+<h2>For more information!!!</h2>
+
+<p id="demo"></p>
+<script>
+var txt = '{"name":"Saru", "device":"breadboard", "d_id":"02"}'
+var obj = JSON.parse(txt);
+document.getElementById("demo").innerHTML = obj.name + ", " + obj.d_id + ", " + obj.device;
+
+</script>
+<p> email address: electronics@gmail.com 
+contact no: 9867362833
+visit: www.electronics.com
+</p>
+</body>
+</html>
